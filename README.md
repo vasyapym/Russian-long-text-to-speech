@@ -69,4 +69,3 @@ input.txt (UTF-8, BOM-tolerant)
 ## License
 
 Silero models carry their own license — see [snakers4/silero-models](https://github.com/snakers4/silero-models). This script adds no further restrictions.
-```
