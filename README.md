@@ -36,6 +36,7 @@ All tunables are constants at the top of the script:
 
 ## How It Works
 
+```
 input.txt (UTF-8, BOM-tolerant)
   │
   ├─ collapse whitespace
@@ -49,6 +50,7 @@ input.txt (UTF-8, BOM-tolerant)
   │     synthesize → convert float32 → int16 PCM → append to .wav.part
   │
   └─ atomically rename .wav.part → .wav
+```
 
 #### Design choices
 
